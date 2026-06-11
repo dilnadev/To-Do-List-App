@@ -18,16 +18,6 @@ A simple, clean to-do list web app built with vanilla HTML, CSS, and JavaScript.
 | JavaScript | App logic and localStorage interaction |
 | Font Awesome 6 | Check and trash icons |
 
-## How to Run
-
-No build step or server needed. Just open `index.html` in any modern browser:
-
-```
-index.html   ← open this file
-```
-
-Or drag and drop `index.html` into your browser window.
-
 ## Project Structure
 
 ```
@@ -45,7 +35,7 @@ To do List/
 4. Clicking the trash button removes the `<li>` from the DOM.
 5. After every change, `updateLocalStorage()` serializes the current task list (name + checked state) back to `localStorage`.
 
-## Screenshots
+
 
 > Green background with a centered yellow card. Tasks appear below the input field separated by dotted borders, with a green check icon and red trash icon on the right of each task.
 
